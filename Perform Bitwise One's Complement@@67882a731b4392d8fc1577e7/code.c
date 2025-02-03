@@ -2,6 +2,7 @@
 int main() {
    int num,result;
    num=scanf("%d",&num);
-   print("%d",~a);
+   result=~a;
+   print("%d",result);
     return 0;
 }
