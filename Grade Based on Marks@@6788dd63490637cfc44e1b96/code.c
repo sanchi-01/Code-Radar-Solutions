@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
    int marks;
-   scanf("%d",&num);
+   scanf("%d",&marks);
    if(marks>=90){
     printf("A");
    }
