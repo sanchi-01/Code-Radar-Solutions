@@ -17,9 +17,7 @@ int main() {
         case '/':
         printf("%d",a/b);
         break;
-        default:
-        printf("Enter valid operator");
-        break;
+       
     }
     return 0;
 }
