@@ -19,6 +19,7 @@ int main() {
         break;
         default:
         printf("Enter valid operator");
+        break;
     }
     return 0;
 }
