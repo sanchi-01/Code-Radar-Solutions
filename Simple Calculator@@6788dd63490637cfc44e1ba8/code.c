@@ -3,7 +3,7 @@ int main() {
     char ch;
     int a,b;
     scanf("%d %d %c",&a,&b,&ch);
-    switch(a,b){
+    switch(ch){
         case '+':
         printf("%d",a+b);
         break;
@@ -14,7 +14,15 @@ int main() {
         printf("%d",a*b);
         break;
         case '/':
-        printf("%d",a/b);
+        if(b==0){
+            printf("error");
+        }
+        else{
+            printf("%d",a/b);
+        }
+        break;
+        default:
+        printf("error");
         break;
        
     }
