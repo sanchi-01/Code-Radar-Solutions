@@ -5,6 +5,6 @@ int main() {
     for(int i=1;i<num;i++){
         printf("*");
     }
-    printf("/n");
+    printf("\n");
     return 0;
 }
