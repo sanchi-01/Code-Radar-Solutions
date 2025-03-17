@@ -3,10 +3,10 @@
 int isPrime(int a){
     for(int i=2;i<sqrt(a);i++){
         if(a%i==0){
-            printf("0\n");
+            return 0;
         }
         else{
-            printf("0\n");
+           return 1;
         }
     }
 }
