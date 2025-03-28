@@ -1,5 +1,15 @@
 // Your code here...
 #include <stdio.h>
+  void checkSorted(int n, int arr[100],int temp[n]){
+    for(int i=0;i<n;i++){
+        if(arr[i]==temp[i]){
+           return 1;
+        }
+        else{
+            return 0;
+        }
+    }
+    }
 int main(){
     int n,arr[100];
     scanf("%d",&n);
@@ -19,12 +29,11 @@ int main(){
             }
         }
     }
-    for(int i=0;i<n;i++){
-        if(arr[i]==temp[i]){
-            printf("Sorted");
-        }
-        else{
-            printf("Not Sorted");
-        }
+    if(checkSorted){
+        printf("Sorted");
     }
+    else{
+        printf("Not Sorted");
+    }
+  
 }
