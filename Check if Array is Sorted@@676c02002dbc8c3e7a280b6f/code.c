@@ -2,11 +2,11 @@
 #include <stdio.h>
   int checkSorted(int n, int arr[100],int temp[n]){
     for(int i=0;i<n;i++){
-        if(arr[i]==temp[i]){
-           return 1;
+        if(arr[i]!=temp[i]){
+           return 0;
         }
         else{
-            return 0;
+            return 1;
         }
     }
     }
@@ -29,7 +29,7 @@ int main(){
             }
         }
     }
-    if(checkSorted){
+    if(checkSorted(n,arr,temp)){
         printf("Sorted");
     }
     else{
