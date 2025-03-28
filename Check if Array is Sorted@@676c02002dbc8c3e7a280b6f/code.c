@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-  void checkSorted(int n, int arr[100],int temp[n]){
+  int checkSorted(int n, int arr[100],int temp[n]){
     for(int i=0;i<n;i++){
         if(arr[i]==temp[i]){
            return 1;
