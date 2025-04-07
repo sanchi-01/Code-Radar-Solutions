@@ -12,10 +12,12 @@ int main(){
     for(int i=1;i<n;i++){
         if(arr[i]>peak){
             peak=arr[i];
+        }
         if(arr[i]<low){
             low=arr[i];
         }
         }
-    }
+    
    printf("%d %d",low,peak);
+   return 0;
 }
