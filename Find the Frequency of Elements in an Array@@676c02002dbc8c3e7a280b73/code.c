@@ -12,9 +12,10 @@ int main(){
         if(arr[i]==arr[i+1]){
             count++;
            }
-    }
-     printf("%d %d\n",arr[j],count);
+            printf("%d %d\n",arr[i],count);
      count=0;
+    }
+    
     }
     return 0;
 }
