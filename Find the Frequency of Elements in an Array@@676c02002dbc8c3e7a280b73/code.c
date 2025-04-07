@@ -13,11 +13,10 @@ int main(){
             count++;
             break;
            }
-  
-     
+           }
     }
-      printf("%d %d\n",arr[j],count);
-    
+    for(int i=0;i<n;i++){
+         printf("%d %d\n",arr[j],count);
     }
     return 0;
 }
