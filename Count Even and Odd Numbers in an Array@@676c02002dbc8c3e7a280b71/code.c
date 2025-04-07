@@ -9,7 +9,7 @@ int main(){
     }
     int count_even,count_odd;
     for(int i=0;i<n;i++){
-        if(arr[i]%2==0){
+        if(arr[i]%2=0){
             count_even++;
         }
         else{
