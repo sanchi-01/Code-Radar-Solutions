@@ -13,9 +13,10 @@ int main(){
             count++;
             break;
            }
-    printf("%d %d\n",arr[i],count);
+  
      
     }
+      printf("%d %d\n",arr[j],count);
     
     }
     return 0;
