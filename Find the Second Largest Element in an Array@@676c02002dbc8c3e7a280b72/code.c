@@ -17,6 +17,7 @@ int main(){
     int sec_peak=-1;
 for(int i=1;i<n;i++){
     if(arr[i]>sec_peak && arr[i]!= peak){
+        sec_peak = arr[i];
         printf("%d",&sec_peak);
     }
 }
