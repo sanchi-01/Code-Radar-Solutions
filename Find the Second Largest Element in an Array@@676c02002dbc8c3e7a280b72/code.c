@@ -10,22 +10,22 @@ int main() {
     }
     
     int peak = arr[0];
-    int sec_peak = arr[0]; // Initialize to -1 or a very small value that doesn't conflict with array data
+    int sec_peak = arr[0]; 
 
-    // Find the peak (maximum element)
+    
     for (int i = 1; i < n; i++) {
-        if (arr[i] > peak) {
+        if (arr[i] > peak){
             peak = arr[i];
         }
-    }
-
-    for (int i = 0; i < n; i++) {
-        if (arr[i] > sec_peak && arr[i] != peak) {
-            sec_peak = arr[i];
+        if(arr[i]<peak && arr[i]>sec_peak){
+            sec_peak=arr[i];
         }
+      
+        
     }
+    printf("%d",sec_peak);
 
-    printf("%d\n", sec_peak); 
+
     
     return 0;
 }
