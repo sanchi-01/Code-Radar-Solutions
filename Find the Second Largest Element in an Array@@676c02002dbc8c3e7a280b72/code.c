@@ -1,6 +1,7 @@
 
 
 #include <stdio.h>
+#include<limits.h>
 int main() {
     int n;
     scanf("%d", &n);
@@ -9,8 +10,8 @@ int main() {
         scanf("%d", &arr[i]);
     }
     
-    int peak = arr[0];
-    int sec_peak = arr[0]; 
+    int peak = INT_MIN;
+    int sec_peak = INT_MIN; 
 
     
     for (int i = 1; i < n; i++) {
