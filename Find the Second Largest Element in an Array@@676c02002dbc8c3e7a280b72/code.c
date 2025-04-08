@@ -28,7 +28,6 @@ int main() {
     }else{
         printf("%d",sec_peak);
     }
-    printf("%d",sec_peak);
     return 0;
 }
 
