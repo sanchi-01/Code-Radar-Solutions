@@ -10,7 +10,7 @@ int main() {
     }
     
     int peak = arr[0];
-    int sec_peak = -1; // Initialize to -1 or a very small value that doesn't conflict with array data
+    int sec_peak = arr[0]; // Initialize to -1 or a very small value that doesn't conflict with array data
 
     // Find the peak (maximum element)
     for (int i = 1; i < n; i++) {
