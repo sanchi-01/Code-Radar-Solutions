@@ -21,9 +21,12 @@ int main() {
         }
         else if(arr[i]<peak && arr[i]>sec_peak){
             sec_peak=arr[i];
-        }
-      
-        
+        } 
+    }
+    if(sec_peak==INT_MIN){
+        printf("-1");
+    }else{
+        printf("%d",sec_peak);
     }
     printf("%d",sec_peak);
     return 0;
