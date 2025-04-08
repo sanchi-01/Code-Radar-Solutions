@@ -1,4 +1,4 @@
-// Your code here...
+
 
 #include <stdio.h>
 int main() {
@@ -15,6 +15,7 @@ int main() {
     
     for (int i = 1; i < n; i++) {
         if (arr[i] > peak){
+            sec_peak=peak;
             peak = arr[i];
         }
         if(arr[i]<peak && arr[i]>sec_peak){
@@ -24,9 +25,6 @@ int main() {
         
     }
     printf("%d",sec_peak);
-
-
-    
     return 0;
 }
 
