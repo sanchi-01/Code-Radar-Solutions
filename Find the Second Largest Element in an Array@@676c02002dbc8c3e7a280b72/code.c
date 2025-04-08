@@ -19,7 +19,7 @@ int main() {
             sec_peak=peak;
             peak = arr[i];
         }
-        else if(arr[i]<peak && arr[i]>sec_peak){
+        else if(arr[i]!=peak && arr[i]>sec_peak){
             sec_peak=arr[i];
         } 
     }
